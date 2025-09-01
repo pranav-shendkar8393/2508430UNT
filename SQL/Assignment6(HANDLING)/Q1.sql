@@ -22,9 +22,10 @@ CREATE TABLE cust_vehicle_new(
 	buy_price INT NOT NULL CHECK(buy_price > 0)
 );
 
-INSERT INTO cust_vehicle VALUES
+INSERT INTO cust_vehicle_new VALUES
     (1, 1, 1, 10, 75000),
 	(2, 1, 2, 10, 790000),
 	(3, 2, 3, 11, 80000),
 	(4, 3, 3, 11, 75000),
+
 	(5, 3, 2, 10, 800000);
