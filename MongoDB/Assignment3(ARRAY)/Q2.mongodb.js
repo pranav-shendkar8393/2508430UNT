@@ -1,4 +1,5 @@
-/* 1. Display all movies which contains 3 actors.
+/* 2. Display all movies with amitabh acted in it
+    and is at 1st index position in array.
 [
   {
     _id: ObjectId('5aaa3334639395f86922a882'),
@@ -7,12 +8,6 @@
     rating: 3,
     ticket_no: 550,
     price: 234.60000000000002
-  },
-  {
-    _id: ObjectId('5c8283789eb55675f0272933'),
-    name: 'uri',
-    rating: 5,
-    actor: [ 'vicky kaushal', 'yami', 'Paresh Rawal' ]
   },
   {
     _id: ObjectId('5ca456072952ebdd7ae2a930'),
@@ -26,6 +21,7 @@
   }
 ]
 */
+
 db.movie.find(
-    {actor:{$size:3}}
+    {"actor.0":/[Aa]mitabh/}
 )
