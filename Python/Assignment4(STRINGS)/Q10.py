@@ -1,0 +1,15 @@
+string1 = "AlwaysThinkPosiTive"
+
+print(string1[5:6])
+print(string1[10:11])
+print(string1[5:8])
+print(string1[8:5:-1])
+print(string1)
+print(string1[2:])
+print(string1[:8])
+print(string1[::-1])
+print(string1[-5:-2])
+print(string1[:-2])
+print(string1[-6:])
+print(string1[::2])
+print(string1[::-2])

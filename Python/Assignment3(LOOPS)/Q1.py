@@ -1,0 +1,1 @@
+print("Reverse: ", (input("Enter a Number: "))[::-1])

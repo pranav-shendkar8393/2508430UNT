@@ -1,0 +1,5 @@
+tuple1 = ("Name", 100, [0, 1, 2, 3], "P", "salary", [5, 10, 15, 20])
+print(tuple1)
+print()
+print("Forth from start:", tuple1[3])
+print("Second from last:", tuple1[-2])

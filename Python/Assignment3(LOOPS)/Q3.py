@@ -1,0 +1,1 @@
+print("Number of digits are ", len(input("Enter a Number: ")))

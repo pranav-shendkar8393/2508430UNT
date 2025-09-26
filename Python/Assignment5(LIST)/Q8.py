@@ -1,0 +1,14 @@
+list1 = [0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 
+         50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100,
+         -100, -90, -80, -70, -60, -50, -40, -30, -20, -10, 
+         0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 
+         50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100]
+
+even_list = [i for i in list1 if (i % 2 == 0)]
+odd_list = [i for i in list1 if (i % 2 != 0)]
+
+print("List =", list1)
+print()
+print("Even List =", even_list)
+print()
+print("Odd List =", odd_list)
