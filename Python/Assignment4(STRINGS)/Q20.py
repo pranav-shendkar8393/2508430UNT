@@ -1,5 +1,5 @@
-user_input = input("Enter a Sentece: ").split()
+user_input = input("Enter a Sentence: ").split()
 
-for i in range((len(user_input) - 1), -1, -1):
-    print(user_input[i], end = " ")
+for word in user_input[::-1]:
+    print(word, end = " ")
 print()
