@@ -1,0 +1,5 @@
+w = input("Enter name: ")
+x = input("Enter age: ")
+y = input("Enter address: ")
+z = input("Enter mobile: ")
+print(w, x, y, z, sep="-")
